@@ -128,6 +128,22 @@
             <Form>Form1</Form>
             <FormType>dfm</FormType>
         </DCCReference>
+        <DCCReference Include="..\ProjetoDemo\uFormComplexo.pas">
+            <Form>FormComplexo</Form>
+            <FormType>dfm</FormType>
+        </DCCReference>
+        <DCCReference Include="..\ProjetoDemo\uFormMedio.pas">
+            <Form>FormMedio</Form>
+            <FormType>dfm</FormType>
+        </DCCReference>
+        <DCCReference Include="..\ProjetoDemo\uFormSimples.pas">
+            <Form>FormSimples</Form>
+            <FormType>dfm</FormType>
+        </DCCReference>
+        <DCCReference Include="..\ProjetoDemo\Unit2.pas">
+            <Form>Form2</Form>
+            <FormType>dfm</FormType>
+        </DCCReference>
         <BuildConfiguration Include="Base">
             <Key>Base</Key>
         </BuildConfiguration>

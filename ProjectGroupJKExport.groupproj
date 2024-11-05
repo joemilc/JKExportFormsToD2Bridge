@@ -6,6 +6,9 @@
         <Projects Include="DemoD2Bridge\DemoD2Bridge.dproj">
             <Dependencies/>
         </Projects>
+        <Projects Include="ProjetoDemo\Project1.dproj">
+            <Dependencies/>
+        </Projects>
     </ItemGroup>
     <ProjectExtensions>
         <Borland.Personality>Default.Personality.12</Borland.Personality>
@@ -23,14 +26,23 @@
     <Target Name="DemoD2Bridge:Make">
         <MSBuild Projects="DemoD2Bridge\DemoD2Bridge.dproj" Targets="Make"/>
     </Target>
+    <Target Name="Project1">
+        <MSBuild Projects="ProjetoDemo\Project1.dproj"/>
+    </Target>
+    <Target Name="Project1:Clean">
+        <MSBuild Projects="ProjetoDemo\Project1.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="Project1:Make">
+        <MSBuild Projects="ProjetoDemo\Project1.dproj" Targets="Make"/>
+    </Target>
     <Target Name="Build">
-        <CallTarget Targets="DemoD2Bridge"/>
+        <CallTarget Targets="DemoD2Bridge;Project1"/>
     </Target>
     <Target Name="Clean">
-        <CallTarget Targets="DemoD2Bridge:Clean"/>
+        <CallTarget Targets="DemoD2Bridge:Clean;Project1:Clean"/>
     </Target>
     <Target Name="Make">
-        <CallTarget Targets="DemoD2Bridge:Make"/>
+        <CallTarget Targets="DemoD2Bridge:Make;Project1:Make"/>
     </Target>
     <Import Project="$(BDS)\Bin\CodeGear.Group.Targets" Condition="Exists('$(BDS)\Bin\CodeGear.Group.Targets')"/>
 </Project>
