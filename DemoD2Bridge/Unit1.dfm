@@ -2,8 +2,8 @@ object Form1: TForm1
   Left = 0
   Top = 0
   Caption = 'Form1'
-  ClientHeight = 482
-  ClientWidth = 635
+  ClientHeight = 553
+  ClientWidth = 826
   Color = clBtnFace
   Font.Charset = DEFAULT_CHARSET
   Font.Color = clWindowText
@@ -11,7 +11,6 @@ object Form1: TForm1
   Font.Name = 'Tahoma'
   Font.Style = []
   Menu = MainMenu1
-  Position = poScreenCenter
   TextHeight = 13
   object Label1: TLabel
     Left = 8
@@ -47,37 +46,35 @@ object Form1: TForm1
     Caption = 'by Talis Jonatas  Gomes'
   end
   object Button1: TButton
-    Left = 176
-    Top = 144
-    Width = 169
+    Left = 40
+    Top = 128
+    Width = 226
     Height = 50
-    Caption = 'Buttom Form Simples'
+    Caption = 'Form Simples'
     TabOrder = 0
-    OnClick = Button1Click
   end
   object Button2: TButton
-    Left = 176
-    Top = 232
-    Width = 169
+    Left = 40
+    Top = 200
+    Width = 226
     Height = 50
-    Caption = 'Buttom Form Medio'
+    Caption = 'Form M'#233'dio'
     TabOrder = 1
-    OnClick = Button2Click
   end
   object Button3: TButton
-    Left = 176
-    Top = 320
-    Width = 169
+    Left = 40
+    Top = 272
+    Width = 226
     Height = 50
-    Caption = 'Buttom Form Complexo'
+    Caption = 'Form Complexo'
     TabOrder = 2
-    OnClick = Button3Click
   end
   object MainMenu1: TMainMenu
-    Left = 48
-    Top = 112
+    Left = 320
+    Top = 56
     object Module11: TMenuItem
       Caption = 'Main'
+      OnClick = Module11Click
     end
     object AppModule21: TMenuItem
       Caption = 'App Module 2'

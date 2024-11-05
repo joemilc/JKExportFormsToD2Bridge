@@ -1,0 +1,36 @@
+﻿<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+    <PropertyGroup>
+        <ProjectGuid>{BCF85F87-C7EB-4855-9614-CA00CD4A3A34}</ProjectGuid>
+    </PropertyGroup>
+    <ItemGroup>
+        <Projects Include="DemoD2Bridge\DemoD2Bridge.dproj">
+            <Dependencies/>
+        </Projects>
+    </ItemGroup>
+    <ProjectExtensions>
+        <Borland.Personality>Default.Personality.12</Borland.Personality>
+        <Borland.ProjectType/>
+        <BorlandProject>
+            <Default.Personality/>
+        </BorlandProject>
+    </ProjectExtensions>
+    <Target Name="DemoD2Bridge">
+        <MSBuild Projects="DemoD2Bridge\DemoD2Bridge.dproj"/>
+    </Target>
+    <Target Name="DemoD2Bridge:Clean">
+        <MSBuild Projects="DemoD2Bridge\DemoD2Bridge.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="DemoD2Bridge:Make">
+        <MSBuild Projects="DemoD2Bridge\DemoD2Bridge.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="Build">
+        <CallTarget Targets="DemoD2Bridge"/>
+    </Target>
+    <Target Name="Clean">
+        <CallTarget Targets="DemoD2Bridge:Clean"/>
+    </Target>
+    <Target Name="Make">
+        <CallTarget Targets="DemoD2Bridge:Make"/>
+    </Target>
+    <Import Project="$(BDS)\Bin\CodeGear.Group.Targets" Condition="Exists('$(BDS)\Bin\CodeGear.Group.Targets')"/>
+</Project>
