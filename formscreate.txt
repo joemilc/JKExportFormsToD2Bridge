@@ -1,0 +1,4 @@
+FormComplexo:=TFormComplexo.Create(
+FormMedio:=TFormMedio.Create(
+FormSimples:=TFormSimples.Create(
+Form1:=TForm1.Create(
