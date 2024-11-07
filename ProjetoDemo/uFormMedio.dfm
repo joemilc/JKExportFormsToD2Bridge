@@ -2,8 +2,8 @@ object FormMedio: TFormMedio
   Left = 0
   Top = 0
   Caption = 'FormMedio'
-  ClientHeight = 442
-  ClientWidth = 672
+  ClientHeight = 613
+  ClientWidth = 668
   Color = clBtnFace
   Font.Charset = DEFAULT_CHARSET
   Font.Color = clWindowText
@@ -35,7 +35,7 @@ object FormMedio: TFormMedio
   end
   object Label8: TLabel
     Left = 8
-    Top = 144
+    Top = 136
     Width = 34
     Height = 15
     Caption = 'Label4'
@@ -74,7 +74,7 @@ object FormMedio: TFormMedio
   end
   object Edit6: TEdit
     Left = 8
-    Top = 165
+    Top = 157
     Width = 401
     Height = 23
     TabOrder = 5
@@ -82,7 +82,7 @@ object FormMedio: TFormMedio
   end
   object CheckBox5: TCheckBox
     Left = 415
-    Top = 168
+    Top = 160
     Width = 227
     Height = 17
     Caption = 'CheckBox5'
@@ -90,7 +90,7 @@ object FormMedio: TFormMedio
   end
   object GroupBox1: TGroupBox
     Left = 8
-    Top = 216
+    Top = 184
     Width = 635
     Height = 150
     Caption = 'GroupBox1'
@@ -210,6 +210,165 @@ object FormMedio: TFormMedio
       Height = 25
       Caption = 'Button3'
       TabOrder = 2
+    end
+  end
+  object PageControl2: TPageControl
+    Left = 8
+    Top = 340
+    Width = 657
+    Height = 209
+    ActivePage = TabSheet4
+    TabOrder = 8
+    object TabSheet4: TTabSheet
+      Caption = 'TabSheet4'
+      object GroupBox2: TGroupBox
+        Left = 3
+        Top = 21
+        Width = 635
+        Height = 150
+        Caption = 'GroupBox2'
+        TabOrder = 0
+        object Label19: TLabel
+          Left = 13
+          Top = 80
+          Width = 34
+          Height = 15
+          Caption = 'Label4'
+        end
+        object Label20: TLabel
+          Left = 388
+          Top = 24
+          Width = 34
+          Height = 15
+          Caption = 'Label3'
+        end
+        object Label21: TLabel
+          Left = 124
+          Top = 24
+          Width = 34
+          Height = 15
+          Caption = 'Label2'
+        end
+        object Label22: TLabel
+          Left = 13
+          Top = 24
+          Width = 34
+          Height = 15
+          Caption = 'Label1'
+        end
+        object Edit14: TEdit
+          Left = 13
+          Top = 45
+          Width = 105
+          Height = 23
+          TabOrder = 0
+          Text = 'Edit14'
+        end
+        object CheckBox6: TCheckBox
+          Left = 538
+          Top = 104
+          Width = 97
+          Height = 17
+          Caption = 'CheckBox6'
+          TabOrder = 6
+        end
+        object CheckBox13: TCheckBox
+          Left = 421
+          Top = 104
+          Width = 97
+          Height = 17
+          Caption = 'CheckBox13'
+          TabOrder = 5
+        end
+        object Edit15: TEdit
+          Left = 13
+          Top = 101
+          Width = 401
+          Height = 23
+          TabOrder = 4
+          Text = 'Edit3'
+        end
+        object CheckBox14: TCheckBox
+          Left = 539
+          Top = 48
+          Width = 97
+          Height = 17
+          Caption = 'CheckBox14'
+          TabOrder = 3
+        end
+        object ComboBox5: TComboBox
+          Left = 388
+          Top = 45
+          Width = 145
+          Height = 23
+          TabOrder = 2
+          Text = 'ComboBox5'
+          Items.Strings = (
+            'ComboBox5 Item 1'
+            'ComboBox5 Item 2'
+            'ComboBox5 Item 3'
+            'ComboBox5 Item 4'
+            'ComboBox5 Item 5'
+            '')
+        end
+        object Edit16: TEdit
+          Left = 124
+          Top = 45
+          Width = 257
+          Height = 23
+          TabOrder = 1
+          Text = 'Edit6'
+        end
+      end
+    end
+    object TabSheet5: TTabSheet
+      Caption = 'TabSheet5'
+      ImageIndex = 1
+      object Label23: TLabel
+        Left = 24
+        Top = 24
+        Width = 34
+        Height = 15
+        Caption = 'Label4'
+      end
+      object Label24: TLabel
+        Left = 135
+        Top = 24
+        Width = 34
+        Height = 15
+        Caption = 'Label6'
+      end
+      object Label25: TLabel
+        Left = 24
+        Top = 80
+        Width = 34
+        Height = 15
+        Caption = 'Label4'
+      end
+      object Edit17: TEdit
+        Left = 24
+        Top = 45
+        Width = 105
+        Height = 23
+        TabOrder = 0
+        Text = 'Edit17'
+      end
+      object Edit18: TEdit
+        Left = 135
+        Top = 45
+        Width = 290
+        Height = 23
+        TabOrder = 1
+        Text = 'Edit18'
+      end
+      object Edit19: TEdit
+        Left = 24
+        Top = 101
+        Width = 401
+        Height = 23
+        TabOrder = 2
+        Text = 'Edit19'
+      end
     end
   end
 end
