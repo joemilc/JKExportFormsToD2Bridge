@@ -36,7 +36,13 @@ type
     Button3: TButton;
     PageControl2: TPageControl;
     TabSheet4: TTabSheet;
-    GroupBox2: TGroupBox;
+    TabSheet5: TTabSheet;
+    Label23: TLabel;
+    Label24: TLabel;
+    Label25: TLabel;
+    Edit17: TEdit;
+    Edit18: TEdit;
+    Edit19: TEdit;
     Label19: TLabel;
     Label20: TLabel;
     Label21: TLabel;
@@ -48,13 +54,6 @@ type
     CheckBox14: TCheckBox;
     ComboBox5: TComboBox;
     Edit16: TEdit;
-    TabSheet5: TTabSheet;
-    Label23: TLabel;
-    Label24: TLabel;
-    Label25: TLabel;
-    Edit17: TEdit;
-    Edit18: TEdit;
-    Edit19: TEdit;
   private
     { Private declarations }
   public

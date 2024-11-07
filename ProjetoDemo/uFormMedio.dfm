@@ -221,104 +221,96 @@ object FormMedio: TFormMedio
     TabOrder = 8
     object TabSheet4: TTabSheet
       Caption = 'TabSheet4'
-      object GroupBox2: TGroupBox
-        Left = 3
-        Top = 21
-        Width = 635
-        Height = 150
-        Caption = 'GroupBox2'
+      object Label19: TLabel
+        Left = 9
+        Top = 88
+        Width = 34
+        Height = 15
+        Caption = 'Label4'
+      end
+      object Label20: TLabel
+        Left = 384
+        Top = 32
+        Width = 34
+        Height = 15
+        Caption = 'Label3'
+      end
+      object Label21: TLabel
+        Left = 120
+        Top = 32
+        Width = 34
+        Height = 15
+        Caption = 'Label2'
+      end
+      object Label22: TLabel
+        Left = 9
+        Top = 32
+        Width = 34
+        Height = 15
+        Caption = 'Label1'
+      end
+      object Edit14: TEdit
+        Left = 9
+        Top = 53
+        Width = 105
+        Height = 23
         TabOrder = 0
-        object Label19: TLabel
-          Left = 13
-          Top = 80
-          Width = 34
-          Height = 15
-          Caption = 'Label4'
-        end
-        object Label20: TLabel
-          Left = 388
-          Top = 24
-          Width = 34
-          Height = 15
-          Caption = 'Label3'
-        end
-        object Label21: TLabel
-          Left = 124
-          Top = 24
-          Width = 34
-          Height = 15
-          Caption = 'Label2'
-        end
-        object Label22: TLabel
-          Left = 13
-          Top = 24
-          Width = 34
-          Height = 15
-          Caption = 'Label1'
-        end
-        object Edit14: TEdit
-          Left = 13
-          Top = 45
-          Width = 105
-          Height = 23
-          TabOrder = 0
-          Text = 'Edit14'
-        end
-        object CheckBox6: TCheckBox
-          Left = 538
-          Top = 104
-          Width = 97
-          Height = 17
-          Caption = 'CheckBox6'
-          TabOrder = 6
-        end
-        object CheckBox13: TCheckBox
-          Left = 421
-          Top = 104
-          Width = 97
-          Height = 17
-          Caption = 'CheckBox13'
-          TabOrder = 5
-        end
-        object Edit15: TEdit
-          Left = 13
-          Top = 101
-          Width = 401
-          Height = 23
-          TabOrder = 4
-          Text = 'Edit3'
-        end
-        object CheckBox14: TCheckBox
-          Left = 539
-          Top = 48
-          Width = 97
-          Height = 17
-          Caption = 'CheckBox14'
-          TabOrder = 3
-        end
-        object ComboBox5: TComboBox
-          Left = 388
-          Top = 45
-          Width = 145
-          Height = 23
-          TabOrder = 2
-          Text = 'ComboBox5'
-          Items.Strings = (
-            'ComboBox5 Item 1'
-            'ComboBox5 Item 2'
-            'ComboBox5 Item 3'
-            'ComboBox5 Item 4'
-            'ComboBox5 Item 5'
-            '')
-        end
-        object Edit16: TEdit
-          Left = 124
-          Top = 45
-          Width = 257
-          Height = 23
-          TabOrder = 1
-          Text = 'Edit6'
-        end
+        Text = 'Edit14'
+      end
+      object CheckBox6: TCheckBox
+        Left = 534
+        Top = 112
+        Width = 97
+        Height = 17
+        Caption = 'CheckBox6'
+        TabOrder = 1
+      end
+      object CheckBox13: TCheckBox
+        Left = 417
+        Top = 112
+        Width = 97
+        Height = 17
+        Caption = 'CheckBox13'
+        TabOrder = 2
+      end
+      object Edit15: TEdit
+        Left = 9
+        Top = 109
+        Width = 401
+        Height = 23
+        TabOrder = 3
+        Text = 'Edit3'
+      end
+      object CheckBox14: TCheckBox
+        Left = 535
+        Top = 56
+        Width = 97
+        Height = 17
+        Caption = 'CheckBox14'
+        TabOrder = 4
+      end
+      object ComboBox5: TComboBox
+        Left = 384
+        Top = 53
+        Width = 145
+        Height = 23
+        TabOrder = 5
+        Text = 'ComboBox5'
+        Items.Strings = (
+          'ComboBox5 Item 1'
+          'ComboBox5 Item 2'
+          'ComboBox5 Item 3'
+          'ComboBox5 Item 4'
+          'ComboBox5 Item 5'
+          '')
+      end
+      object Edit16: TEdit
+        Left = 120
+        Top = 53
+        Width = 257
+        Height = 23
+        TabOrder = 6
+        Text = 'Edit6'
       end
     end
     object TabSheet5: TTabSheet
