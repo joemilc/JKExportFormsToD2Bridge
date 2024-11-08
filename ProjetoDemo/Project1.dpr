@@ -6,7 +6,9 @@ uses
   uFormComplexo in 'uFormComplexo.pas' {FormComplexo},
   uFormMedio in 'uFormMedio.pas' {FormMedio},
   uFormSimples in 'uFormSimples.pas' {FormSimples},
-  Unit2 in 'Unit2.pas' {Form2};
+  Unit2 in 'Unit2.pas' {Form2},
+  Unit3 in 'Unit3.pas',
+  Unit4 in 'Unit4.pas';
 
 {$R *.res}
 

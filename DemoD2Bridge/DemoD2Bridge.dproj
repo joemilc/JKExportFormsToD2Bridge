@@ -144,6 +144,8 @@
             <Form>Form2</Form>
             <FormType>dfm</FormType>
         </DCCReference>
+        <DCCReference Include="..\ProjetoDemo\Unit3.pas"/>
+        <DCCReference Include="..\ProjetoDemo\Unit4.pas"/>
         <BuildConfiguration Include="Base">
             <Key>Base</Key>
         </BuildConfiguration>
