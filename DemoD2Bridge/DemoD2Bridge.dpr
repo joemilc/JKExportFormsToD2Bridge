@@ -19,8 +19,8 @@ uses
   uFormMedio in '..\ProjetoDemo\uFormMedio.pas' {FormMedio},
   uFormSimples in '..\ProjetoDemo\uFormSimples.pas' {FormSimples},
   Unit2 in '..\ProjetoDemo\Unit2.pas' {Form2},
-  Unit3 in '..\ProjetoDemo\Unit3.pas',
-  Unit4 in '..\ProjetoDemo\Unit4.pas';
+  Unit3 in '..\ProjetoDemo\Unit3.pas' {Form3},
+  Unit4 in '..\ProjetoDemo\Unit4.pas' {Form4};
 
 {$R *.res}
 
