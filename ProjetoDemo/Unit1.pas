@@ -8,7 +8,7 @@ uses
   Vcl.Graphics, Vcl.Controls, Vcl.Forms, Vcl.Dialogs, Vcl.StdCtrls,
   uFormComplexo,
   uFormMedio,
-  uFormSimples;
+  uFormSimples, Vcl.Imaging.pngimage, Vcl.ExtCtrls;
 
 type
   TForm1 = class(TForm)
@@ -16,6 +16,7 @@ type
     Button1: TButton;
     Button2: TButton;
     Button3: TButton;
+    Image1: TImage;
     procedure Button1Click(Sender: TObject);
     procedure Button2Click(Sender: TObject);
     procedure Button3Click(Sender: TObject);
