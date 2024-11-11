@@ -2,8 +2,8 @@ object FormSimples: TFormSimples
   Left = 0
   Top = 0
   Caption = 'FormSimples'
-  ClientHeight = 347
-  ClientWidth = 401
+  ClientHeight = 317
+  ClientWidth = 538
   Color = clBtnFace
   Font.Charset = DEFAULT_CHARSET
   Font.Color = clWindowText
@@ -11,6 +11,7 @@ object FormSimples: TFormSimples
   Font.Name = 'Segoe UI'
   Font.Style = []
   Position = poScreenCenter
+  OnCreate = FormCreate
   TextHeight = 15
   object Label1: TLabel
     Left = 8
@@ -65,13 +66,49 @@ object FormSimples: TFormSimples
   object DBGrid1: TDBGrid
     Left = 8
     Top = 120
-    Width = 377
+    Width = 521
     Height = 185
+    DataSource = DSCountry
     TabOrder = 3
     TitleFont.Charset = DEFAULT_CHARSET
     TitleFont.Color = clWindowText
     TitleFont.Height = -12
     TitleFont.Name = 'Segoe UI'
     TitleFont.Style = []
+  end
+  object DSCountry: TDataSource
+    DataSet = ClientDataSet_Country
+    Left = 200
+    Top = 64
+  end
+  object ClientDataSet_Country: TClientDataSet
+    PersistDataPacket.Data = {
+      9C0000009619E0BD0100000018000000040000000000030000009C0007417574
+      6F436F64040001000200010007535542545950450200490008004175746F696E
+      630007436F756E74727901004900000001000557494454480200020064000344
+      444901004900000001000557494454480200020014000A506F70756C6174696F
+      6E040001000000000001000C4155544F494E4356414C55450400010001000000}
+    Active = True
+    Aggregates = <>
+    Params = <>
+    Left = 299
+    Top = 64
+    object ClientDataSet_CountryAutoCod: TAutoIncField
+      DisplayWidth = 10
+      FieldName = 'AutoCod'
+    end
+    object ClientDataSet_CountryCountry: TStringField
+      DisplayWidth = 41
+      FieldName = 'Country'
+      Size = 100
+    end
+    object ClientDataSet_CountryDDI: TStringField
+      DisplayWidth = 8
+      FieldName = 'DDI'
+    end
+    object ClientDataSet_CountryPopulation: TIntegerField
+      DisplayWidth = 17
+      FieldName = 'Population'
+    end
   end
 end
