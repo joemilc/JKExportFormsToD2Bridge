@@ -75,6 +75,31 @@ object FormSimples: TFormSimples
     TitleFont.Height = -12
     TitleFont.Name = 'Segoe UI'
     TitleFont.Style = []
+    Columns = <
+      item
+        Expanded = False
+        FieldName = 'AutoCod'
+        Width = 65
+        Visible = True
+      end
+      item
+        Expanded = False
+        FieldName = 'Country'
+        Width = 245
+        Visible = True
+      end
+      item
+        Expanded = False
+        FieldName = 'DDI'
+        Width = 50
+        Visible = True
+      end
+      item
+        Expanded = False
+        FieldName = 'Population'
+        Width = 105
+        Visible = True
+      end>
   end
   object DSCountry: TDataSource
     DataSet = ClientDataSet_Country
