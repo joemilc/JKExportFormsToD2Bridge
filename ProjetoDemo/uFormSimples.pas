@@ -4,7 +4,8 @@ interface
 
 uses
   Winapi.Windows, Winapi.Messages, System.SysUtils, System.Variants, System.Classes, Vcl.Graphics,
-  Vcl.Controls, Vcl.Forms, Vcl.Dialogs, Vcl.StdCtrls, Data.DB, Vcl.Grids, Vcl.DBGrids, Datasnap.DBClient;
+  Vcl.Controls, Vcl.Forms, Vcl.Dialogs, Vcl.StdCtrls, Data.DB, Vcl.Grids, Vcl.DBGrids, Datasnap.DBClient, cxGraphics,
+  cxLookAndFeels, cxLookAndFeelPainters, Vcl.Menus, cxButtons;
 
 type
   TFormSimples = class(TForm)
@@ -21,6 +22,8 @@ type
     ClientDataSet_CountryCountry: TStringField;
     ClientDataSet_CountryDDI: TStringField;
     ClientDataSet_CountryPopulation: TIntegerField;
+    cxButton1: TcxButton;
+    cxButton2: TcxButton;
     procedure FormCreate(Sender: TObject);
   private
     { Private declarations }

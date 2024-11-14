@@ -101,6 +101,22 @@ object FormSimples: TFormSimples
         Visible = True
       end>
   end
+  object cxButton1: TcxButton
+    Left = 376
+    Top = 89
+    Width = 75
+    Height = 25
+    Caption = 'cxButton1'
+    TabOrder = 4
+  end
+  object cxButton2: TcxButton
+    Left = 457
+    Top = 89
+    Width = 75
+    Height = 25
+    Caption = 'cxButton2'
+    TabOrder = 5
+  end
   object DSCountry: TDataSource
     DataSet = ClientDataSet_Country
     Left = 200
