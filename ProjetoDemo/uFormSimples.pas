@@ -22,8 +22,6 @@ type
     ClientDataSet_CountryCountry: TStringField;
     ClientDataSet_CountryDDI: TStringField;
     ClientDataSet_CountryPopulation: TIntegerField;
-    cxButton1: TcxButton;
-    cxButton2: TcxButton;
     procedure FormCreate(Sender: TObject);
   private
     { Private declarations }

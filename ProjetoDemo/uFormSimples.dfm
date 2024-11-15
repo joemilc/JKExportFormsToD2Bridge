@@ -2,8 +2,8 @@ object FormSimples: TFormSimples
   Left = 0
   Top = 0
   Caption = 'FormSimples'
-  ClientHeight = 317
-  ClientWidth = 538
+  ClientHeight = 316
+  ClientWidth = 534
   Color = clBtnFace
   Font.Charset = DEFAULT_CHARSET
   Font.Color = clWindowText
@@ -100,22 +100,6 @@ object FormSimples: TFormSimples
         Width = 105
         Visible = True
       end>
-  end
-  object cxButton1: TcxButton
-    Left = 376
-    Top = 89
-    Width = 75
-    Height = 25
-    Caption = 'cxButton1'
-    TabOrder = 4
-  end
-  object cxButton2: TcxButton
-    Left = 457
-    Top = 89
-    Width = 75
-    Height = 25
-    Caption = 'cxButton2'
-    TabOrder = 5
   end
   object DSCountry: TDataSource
     DataSet = ClientDataSet_Country
