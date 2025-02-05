@@ -9,3 +9,6 @@ Ele analisa todos os arquivos dfm/lfm de uma pasta, e altera a unit corresponden
 
 **Como faço para adquirir a versão completa e sem limitações?**\
 Basta entrar em contato com o desenvolvedor (Joemil), pelo whats (66) 99616-7379
+
+**Link do vídeo no Youtube**\
+https://youtu.be/LkqzL8V_AdY
